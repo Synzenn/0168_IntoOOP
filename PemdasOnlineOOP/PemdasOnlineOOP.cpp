@@ -2,7 +2,7 @@
 using namespace std;
 
 class Mahasiswa {
-public:
+public: 
     string nama;
     int umur;
     string jurusan;
@@ -28,5 +28,11 @@ public:
         cout << "SKS: ";
         cin >> sks;
     }
-}
-    
+
+    void output() {
+        cout << "Kode MK: " << kodemk << endl;
+        cout << "Nama MK: " << namamk << endl;
+        cout << "SKS: " << sks << endl;
+    }
+};
+
